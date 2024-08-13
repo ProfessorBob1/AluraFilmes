@@ -1,0 +1,61 @@
+body {
+    color:rgb(0, 25, 252);
+    background:teal;
+    margin: 0px;
+    font-family: "Akaya Telivigala", system-ui;
+    margin-bottom: 100px;
+}
+
+header {
+border-bottom: solid 7px rgb(202, 32, 194);
+padding: 20px;
+font-size: 40px;
+color:darkred;
+}
+
+.chamada {
+background: rgb(254, 221,0);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+}
+
+.titulo-video {
+margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+.mostra-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px; 
+}
+
+.os-videos{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.os-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.os-videos img:hover {
+    opacity: 1.0;
+    border: solid 3px purple;
+}
+
+.os-videos h2{
+    color: darkred;
+}
